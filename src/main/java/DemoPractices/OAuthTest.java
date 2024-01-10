@@ -10,7 +10,7 @@ import io.restassured.path.json.JsonPath;
 
 public class OAuthTest {
 
-	@Test
+	@Test(enabled = false)
 	public void authenticationOAuth() throws InterruptedException {
 
 

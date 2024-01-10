@@ -17,7 +17,7 @@ import io.restassured.path.json.JsonPath;
 
 public class OAuthTestWithPojo_Deserialization {
 
-	@Test
+	@Test(enabled = false)
 	public void OAuthWithDeserialize() throws InterruptedException {
 
 		//To get this url, u can navigate "https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.googleapis.com/auth/userinfo.email&auth_url=https://accounts.google.com/o/oauth2/v2/auth&client_id=692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com&response_type=code&redirect_uri=https://rahulshettyacademy.com/getCourse.php"
