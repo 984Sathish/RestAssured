@@ -26,11 +26,11 @@ public class OAuthTestWithPojo_Deserialization {
 		//Copy the url and paste it.
 		
 		
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the url for authentication: ");
-		String url = sc.next();
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("Enter the url for authentication: ");
+//		String url = sc.next();
 		
-		//String url = "https://rahulshettyacademy.com/getCourse.php?code=4%2F0AfJohXnCfh9eDNiiWVeee0sfwj1E4-6quzz5TJ_U5s_5l0VDfzO69DhkHKLdQ33C-o5hpg&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=none";
+		String url = "https://rahulshettyacademy.com/getCourse.php?code=4%2F0AfJohXnfck8pgfIXH8ZGcuhaS93yzO0Rk5Jp5g2ZbXguT8Xc2YXTLttd1_ysgMCeyQ5NGQ&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=none";
 		String AuthCode = url.split("code=")[1].split("&scope")[0];
 		System.out.println(AuthCode);
 

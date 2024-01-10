@@ -38,11 +38,11 @@ public class OAuthTest {
 
 		 */
 		
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the url for authentication: ");
-		String url = sc.next();
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("Enter the url for authentication: ");
+//		String url = sc.next();
 		
-		//String url = "https://rahulshettyacademy.com/getCourse.php?code=4%2F0AfJohXkaklhkjiwxc_Dd2Pmz-c-i6mgPcKXDVRd2NxVVgHsDqogNjoT28w_fOEspWSl7og&scope=email+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=none";
+		String url = "https://rahulshettyacademy.com/getCourse.php?code=4%2F0AfJohXmfM0GDsHgfuqrDwA483MdRpnIwS_tWHGXJ1i-5EiB-jHd1UMauGBB-ljqyzbvCMw&scope=email+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=none";
 		String AuthCode = url.split("code=")[1].split("&scope")[0];
 		System.out.println(AuthCode);
 
