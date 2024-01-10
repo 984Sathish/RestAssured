@@ -1,0 +1,127 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jan 10 14:35:08 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2128 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Cucumber.Options.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Cucumber.Options.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if place is created using AddPlaceAPI", "Validating Map API's"</td>
+<td><div><pre>java.io.FileNotFoundException: C:\Users\sathish.suresh\eclipse-workspace\RestApiFramwork\src\test\java\Resource\global.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at Resource.Utils.getGlobalProperty(Utils.java:42)
+	at Resource.Utils.getRequestSpecification(Utils.java:25)
+	at stepDefinations.stepDefination.add_place_payload_with(stepDefination.java:31)
+	at ✽.Add Place payload with &quot;29, side layout, cohen 09&quot; &quot;(+91) 983 893 3937&quot; &quot;Frontline house&quot; &quot;French-IN&quot;(file:///C:/Users/sathish.suresh/Documents/RestAssured/src/test/java/features/MapAPI.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1471633238", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1471633238'><pre>java.io.FileNotFoundException: C:\Users\sathish.suresh\eclipse-workspace\RestApiFramwork\src\test\java\Resource\global.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at Resource.Utils.getGlobalProperty(Utils.java:42)
+	at Resource.Utils.getRequestSpecification(Utils.java:25)
+	at stepDefinations.stepDefination.add_place_payload_with(stepDefination.java:31)
+	at ✽.Add Place payload with &quot;29, side layout, cohen 09&quot; &quot;(+91) 983 893 3937&quot; &quot;Frontline house&quot; &quot;French-IN&quot;(file:///C:/Users/sathish.suresh/Documents/RestAssured/src/test/java/features/MapAPI.feature:7)
+</pre></div></td>
+<td>1</td>
+<td>Cucumber.Options.TestRunner@36916eb0</td></tr>
+<tr>
+<td title='Cucumber.Options.TestRunner.runScenario()'><b>runScenario</b><br>Test class: Cucumber.Options.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if place is created using AddPlaceAPI", "Validating Map API's"</td>
+<td><div><pre>java.io.FileNotFoundException: C:\Users\sathish.suresh\eclipse-workspace\RestApiFramwork\src\test\java\Resource\global.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at Resource.Utils.getGlobalProperty(Utils.java:42)
+	at Resource.Utils.getRequestSpecification(Utils.java:25)
+	at stepDefinations.stepDefination.add_place_payload_with(stepDefination.java:31)
+	at ✽.Add Place payload with &quot;39 March center, jain&quot; &quot;(+91) 403 733 937&quot; &quot;Backlight house&quot; &quot;Englist&quot;(file:///C:/Users/sathish.suresh/Documents/RestAssured/src/test/java/features/MapAPI.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace645476639", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace645476639'><pre>java.io.FileNotFoundException: C:\Users\sathish.suresh\eclipse-workspace\RestApiFramwork\src\test\java\Resource\global.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at Resource.Utils.getGlobalProperty(Utils.java:42)
+	at Resource.Utils.getRequestSpecification(Utils.java:25)
+	at stepDefinations.stepDefination.add_place_payload_with(stepDefination.java:31)
+	at ✽.Add Place payload with &quot;39 March center, jain&quot; &quot;(+91) 403 733 937&quot; &quot;Backlight house&quot; &quot;Englist&quot;(file:///C:/Users/sathish.suresh/Documents/RestAssured/src/test/java/features/MapAPI.feature:7)
+</pre></div></td>
+<td>0</td>
+<td>Cucumber.Options.TestRunner@36916eb0</td></tr>
+</table><p>
+</body>
+</html>
