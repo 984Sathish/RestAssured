@@ -1,27 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="3" total="17" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-10T14:06:13 IST" name="Default suite" finished-at="2024-01-10T14:06:19 IST" duration-ms="6086">
+  <suite started-at="2024-01-10T14:39:21 IST" name="Suite" finished-at="2024-01-10T14:39:37 IST" duration-ms="15577">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.Options.TestRunner@36916eb0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.Options.TestRunner@942a29c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-01-10T14:06:13 IST" name="Default test" finished-at="2024-01-10T14:06:19 IST" duration-ms="6086">
+    <test started-at="2024-01-10T14:39:21 IST" name="Test" finished-at="2024-01-10T14:39:37 IST" duration-ms="15577">
+      <class name="DemoPractices.RestAPIWithExcel">
+        <test-method signature="getExcelDateInAPI()[pri:0, instance:DemoPractices.RestAPIWithExcel@7c711375]" started-at="2024-01-10T14:39:21 IST" name="getExcelDateInAPI" finished-at="2024-01-10T14:39:27 IST" duration-ms="5559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getExcelDateInAPI -->
+      </class> <!-- DemoPractices.RestAPIWithExcel -->
+      <class name="DemoPractices.MapApiWithSerialization">
+        <test-method signature="mapSerialization()[pri:0, instance:DemoPractices.MapApiWithSerialization@3cebbb30]" started-at="2024-01-10T14:39:27 IST" name="mapSerialization" finished-at="2024-01-10T14:39:28 IST" duration-ms="867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mapSerialization -->
+      </class> <!-- DemoPractices.MapApiWithSerialization -->
+      <class name="DemoPractices.SpecBuilderTest">
+        <test-method signature="specBuild()[pri:0, instance:DemoPractices.SpecBuilderTest@6253c26]" started-at="2024-01-10T14:39:28 IST" name="specBuild" finished-at="2024-01-10T14:39:28 IST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- specBuild -->
+      </class> <!-- DemoPractices.SpecBuilderTest -->
+      <class name="DemoPractices.HashMapInteg">
+        <test-method signature="hashMapIntegration()[pri:0, instance:DemoPractices.HashMapInteg@659499f1]" started-at="2024-01-10T14:39:31 IST" name="hashMapIntegration" finished-at="2024-01-10T14:39:31 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hashMapIntegration -->
+      </class> <!-- DemoPractices.HashMapInteg -->
+      <class name="DemoPractices.ClientApiAutomationE2E">
+        <test-method signature="clientAPIEnd2End()[pri:0, instance:DemoPractices.ClientApiAutomationE2E@49049a04]" started-at="2024-01-10T14:39:28 IST" name="clientAPIEnd2End" finished-at="2024-01-10T14:39:30 IST" duration-ms="1886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clientAPIEnd2End -->
+      </class> <!-- DemoPractices.ClientApiAutomationE2E -->
+      <class name="DemoPractices.ComplexJsonPractice">
+        <test-method signature="getComplexJson()[pri:0, instance:DemoPractices.ComplexJsonPractice@82de64a]" started-at="2024-01-10T14:39:30 IST" name="getComplexJson" finished-at="2024-01-10T14:39:31 IST" duration-ms="574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getComplexJson -->
+      </class> <!-- DemoPractices.ComplexJsonPractice -->
+      <class name="DemoPractices.GetPayloadFromFile">
+        <test-method signature="addPlace()[pri:0, instance:DemoPractices.GetPayloadFromFile@290222c1]" started-at="2024-01-10T14:39:28 IST" name="addPlace" finished-at="2024-01-10T14:39:28 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPlace -->
+      </class> <!-- DemoPractices.GetPayloadFromFile -->
       <class name="Cucumber.Options.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Cucumber.Options.TestRunner@36916eb0]" started-at="2024-01-10T14:06:13 IST" name="setUpClass" finished-at="2024-01-10T14:06:13 IST" duration-ms="400" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Cucumber.Options.TestRunner@942a29c]" started-at="2024-01-10T14:39:34 IST" name="setUpClass" finished-at="2024-01-10T14:39:34 IST" duration-ms="216" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@69d2e517]]>
+                <![CDATA[org.testng.TestRunner@39420d59]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.Options.TestRunner@36916eb0]" started-at="2024-01-10T14:06:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T14:06:18 IST" duration-ms="4466" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.Options.TestRunner@942a29c]" started-at="2024-01-10T14:39:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T14:39:35 IST" duration-ms="967" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +79,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.Options.TestRunner@36916eb0]" started-at="2024-01-10T14:06:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T14:06:19 IST" duration-ms="970" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.Options.TestRunner@942a29c]" started-at="2024-01-10T14:39:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-10T14:39:37 IST" duration-ms="1123" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,11 +95,83 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Cucumber.Options.TestRunner@36916eb0]" started-at="2024-01-10T14:06:19 IST" name="tearDownClass" finished-at="2024-01-10T14:06:19 IST" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Cucumber.Options.TestRunner@942a29c]" started-at="2024-01-10T14:39:37 IST" name="tearDownClass" finished-at="2024-01-10T14:39:37 IST" duration-ms="258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- Cucumber.Options.TestRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="DemoPractices.MapAPIs">
+        <test-method signature="mapAPI()[pri:0, instance:DemoPractices.MapAPIs@47e2e487]" started-at="2024-01-10T14:39:31 IST" name="mapAPI" finished-at="2024-01-10T14:39:33 IST" duration-ms="2144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mapAPI -->
+      </class> <!-- DemoPractices.MapAPIs -->
+      <class name="DemoPractices.BookAPI">
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:DemoPractices.BookAPI@201a4587]" started-at="2024-01-10T14:39:33 IST" name="addBook" data-provider="BookData" finished-at="2024-01-10T14:39:34 IST" duration-ms="208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bcd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2926]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:DemoPractices.BookAPI@201a4587]" started-at="2024-01-10T14:39:34 IST" name="addBook" data-provider="BookData" finished-at="2024-01-10T14:39:34 IST" duration-ms="224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[acb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3401]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:DemoPractices.BookAPI@201a4587]" started-at="2024-01-10T14:39:34 IST" name="addBook" data-provider="BookData" finished-at="2024-01-10T14:39:34 IST" duration-ms="218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1340]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:DemoPractices.BookAPI@201a4587]" started-at="2024-01-10T14:39:34 IST" name="addBook" data-provider="BookData" finished-at="2024-01-10T14:39:34 IST" duration-ms="189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[acb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2763]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+      </class> <!-- DemoPractices.BookAPI -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

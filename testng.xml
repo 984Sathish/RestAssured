@@ -15,6 +15,7 @@
       <class name="DemoPractices.GraphqlTest"/>
       <class name="DemoPractices.MapAPIs"/>
       <class name="DemoPractices.BookAPI"/>
+      <class name="Cucumber.Options.TestRunner"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

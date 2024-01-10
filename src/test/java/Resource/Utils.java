@@ -40,7 +40,7 @@ public class Utils {
 		Properties property = new Properties();
 		//input to golbal property file
 		FileInputStream fileInput = new FileInputStream(
-				"C:\\Users\\sathish.suresh\\eclipse-workspace\\RestApiFramwork\\src\\test\\java\\Resource\\global.properties"
+				"C:\\Users\\sathish.suresh\\Documents\\RestAssured\\src\\test\\java\\Resource\\global.properties"
 				);
 		property.load(fileInput);
 		
