@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jan 10 09:53:43 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>51 seconds (51989 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='DemoPractices.SpecBuilderTest.specBuild()'><b>specBuild</b><br>Test class: DemoPractices.SpecBuilderTest</td>
+<td></td>
+<td>0</td>
+<td>DemoPractices.SpecBuilderTest@537f60bf</td></tr>
+<tr>
+<td title='DemoPractices.MapAPIs.mapAPI()'><b>mapAPI</b><br>Test class: DemoPractices.MapAPIs</td>
+<td></td>
+<td>1</td>
+<td>DemoPractices.MapAPIs@1e0b4072</td></tr>
+<tr>
+<td title='DemoPractices.OAuthTest.authenticationOAuth()'><b>authenticationOAuth</b><br>Test class: DemoPractices.OAuthTest</td>
+<td></td>
+<td>11</td>
+<td>DemoPractices.OAuthTest@5824a83d</td></tr>
+<tr>
+<td title='DemoPractices.BookAPI.addBook()'><b>addBook</b><br>Test class: DemoPractices.BookAPI<br>Parameters: acb, 2763</td>
+<td></td>
+<td>0</td>
+<td>DemoPractices.BookAPI@791f145a</td></tr>
+<tr>
+<td title='DemoPractices.OAuthTestWithPojo_Deserialization.OAuthWithDeserialize()'><b>OAuthWithDeserialize</b><br>Test class: DemoPractices.OAuthTestWithPojo_Deserialization</td>
+<td></td>
+<td>26</td>
+<td>DemoPractices.OAuthTestWithPojo_Deserialization@25641d39</td></tr>
+<tr>
+<td title='DemoPractices.GetPayloadFromFile.addPlace()'><b>addPlace</b><br>Test class: DemoPractices.GetPayloadFromFile</td>
+<td></td>
+<td>0</td>
+<td>DemoPractices.GetPayloadFromFile@7b36aa0c</td></tr>
+<tr>
+<td title='DemoPractices.MapApiWithSerialization.mapSerialization()'><b>mapSerialization</b><br>Test class: DemoPractices.MapApiWithSerialization</td>
+<td></td>
+<td>0</td>
+<td>DemoPractices.MapApiWithSerialization@4a883b15</td></tr>
+<tr>
+<td title='DemoPractices.RestAPIWithExcel.getExcelDateInAPI()'><b>getExcelDateInAPI</b><br>Test class: DemoPractices.RestAPIWithExcel</td>
+<td></td>
+<td>7</td>
+<td>DemoPractices.RestAPIWithExcel@72e5a8e</td></tr>
+<tr>
+<td title='DemoPractices.BookAPI.addBook()'><b>addBook</b><br>Test class: DemoPractices.BookAPI<br>Parameters: acb, 3401</td>
+<td></td>
+<td>0</td>
+<td>DemoPractices.BookAPI@791f145a</td></tr>
+<tr>
+<td title='DemoPractices.BookAPI.addBook()'><b>addBook</b><br>Test class: DemoPractices.BookAPI<br>Parameters: xyz, 1340</td>
+<td></td>
+<td>0</td>
+<td>DemoPractices.BookAPI@791f145a</td></tr>
+<tr>
+<td title='DemoPractices.HashMapInteg.hashMapIntegration()'><b>hashMapIntegration</b><br>Test class: DemoPractices.HashMapInteg</td>
+<td></td>
+<td>0</td>
+<td>DemoPractices.HashMapInteg@229c6181</td></tr>
+<tr>
+<td title='DemoPractices.BookAPI.addBook()'><b>addBook</b><br>Test class: DemoPractices.BookAPI<br>Parameters: bcd, 2926</td>
+<td></td>
+<td>0</td>
+<td>DemoPractices.BookAPI@791f145a</td></tr>
+<tr>
+<td title='DemoPractices.ComplexJsonPractice.getComplexJson()'><b>getComplexJson</b><br>Test class: DemoPractices.ComplexJsonPractice</td>
+<td></td>
+<td>0</td>
+<td>DemoPractices.ComplexJsonPractice@4d154ccd</td></tr>
+<tr>
+<td title='DemoPractices.ClientApiAutomationE2E.clientAPIEnd2End()'><b>clientAPIEnd2End</b><br>Test class: DemoPractices.ClientApiAutomationE2E</td>
+<td></td>
+<td>1</td>
+<td>DemoPractices.ClientApiAutomationE2E@5677323c</td></tr>
+</table><p>
+</body>
+</html>
