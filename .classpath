@@ -36,14 +36,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/sathish.suresh/.m2/repository/io/cucumber/cucumber-testng/7.14.0/cucumber-testng-7.14.0.jar" sourcepath="C:/Users/sathish.suresh/.m2/repository/io/cucumber/cucumber-testng/7.14.0/cucumber-testng-7.14.0-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="io.cucumber"/>
-			<attribute name="maven.artifactId" value="cucumber-testng"/>
-			<attribute name="maven.version" value="7.14.0"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
